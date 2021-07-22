@@ -10,36 +10,61 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
+  <main>
+    <div class="container">
+      <header>
+        <h1>Reliable, efficient delivery</h1>
+        <h1>Powered by Technology</h1>
+        <p>Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful</p>
+      </header>
+      <div class="grid__container">
+        <div class="card grid__item-1">
+          <div class="card__content card-1">
+            <h2>Supervisor</h2>
+            <p>Monitors activity to identify project roadblocks</p>
+            <div class="pic"><img src="./images/icon-supervisor.svg" alt="Supervisor"></div>
+          </div>
+        </div>
+        <div class="card grid__item-2">
+          <div class="card__content card-2">
+            <h2>Team Builder</h2>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <div class="pic"><img src="./images/icon-team-builder.svg" alt="Team Builder"></div>
+          </div>
+        </div>
+        <div class="card grid__item-3">
+          <div class="card__content card-3">
+            <h2>Karma</h2>
+            <p>Regularly evaluates our talent to ensure quality</p>
+            <div class="pic"><img src="./images/icon-karma.svg" alt="Karma"></div>
+          </div>
+        </div>
+        <div class="card grid__item-4">
+          <div class="card__content card-4">
+            <h2>Calculator</h2>
+            <p>Uses data from past projects to provide better delivery estimates</p>
+            <div class="pic"><img src="./images/icon-calculator.svg" alt="Calculator"></div>
+          </div>          
+        </div>
+      </div>
+    </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Jimmy Sardana</a>.
     </p>
-  </footer>
+  </main>
 </body>
 </html>
